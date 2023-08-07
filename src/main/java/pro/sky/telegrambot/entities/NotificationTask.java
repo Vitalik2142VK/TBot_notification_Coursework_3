@@ -8,7 +8,6 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 
 @Entity
-@Table(name = "notification_task")
 public class NotificationTask {
     @Id
     @GeneratedValue
